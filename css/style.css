@@ -1,0 +1,167 @@
+* {
+    font-family: 'Roboto';
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab';
+}
+nav {
+    background-color: white;
+    box-shadow: 0 2px 30px 2px rgba(0, 0, 0, 0.4);
+}
+nav a {
+    font-family: 'Roboto Slab';
+}
+.grey {
+    color: #4e4e4e;
+}
+.sub-description {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.big-button {
+    height: 50.38px;
+    padding: .7rem;
+
+    transition: all .1s;
+    white-space: nowrap;
+    font-family: 'Roboto';
+
+    color: white;
+    border: 2px solid #1abc9c;
+    border-radius: 25px;
+    background-color: #1abc9c;
+}
+.big-button:hover {
+    color: #1abc9c;
+    background-color: white;
+    text-decoration: none;
+}
+.nav-link {
+    color: #1abc9c!important;
+    cursor: pointer;
+}
+.nav-link:hover {
+    color: #16a085!important;
+}
+.navbar-toggler-icon {
+	width: 30px;
+	height: 30px;
+    padding-top: 1px;
+
+	cursor: pointer;
+
+	font-size: 1.6rem;
+}
+.navbar-toggler:focus {
+	outline: none;
+}
+.cover-section {
+    height: 100vh;
+
+    background-image: url('http://placehold.it/2880x1800.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.cover-section .overlay {
+    position: absolute;
+	z-index: 2;
+
+	width: 100%;
+	height: 100vh;
+
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.cover-section .gradient-overlay {
+    position: absolute;
+	z-index: 3;
+
+	width: 100%;
+	height: 100vh;
+
+    background: #1abc9c;
+    background: -webkit-linear-gradient(-45deg, #8E44AD, #1ABC9C);
+    background: -o-linear-gradient(-45deg, #8E44AD, #1ABC9C);
+    background: -moz-linear-gradient(-45deg, #8E44AD, #1ABC9C);
+    background: linear-gradient(-45deg, #8E44AD, #1ABC9C);
+    opacity: .4;
+}
+.cover-section .content {
+    position: absolute;
+	z-index: 4;
+	top: 50%;
+	left: 50%;
+
+	transform: translate(-50%, -50%);
+
+	color: white;
+}
+.cover-section .content h3 {
+    font-weight: 300;
+    font-style: italic;
+}
+.about-description {
+    font-size: 1.1rem;
+    opacity: .9;
+}
+.team-section h5 {
+    font-weight: 400;
+    font-style: italic;
+}
+.section-grey {
+    background-color: #f0f0f0;
+}
+.contact-section input, .contact-section textarea {
+    font-size: 1.1rem;
+    font-family: 'Roboto';
+    border-width: 0 0 2px 0;
+    border-color: rgba(0, 0, 0, 0.3);
+    transition: all .2s
+}
+.contact-section input:focus, .contact-section textarea:focus {
+    border-color: #1abc9c;
+    outline: 0;
+}
+.contact-section input {
+    border-radius: 0;
+}
+.contact-section textarea {
+    resize: none;
+}
+.contact-section button {
+    transition: all .1s;
+    white-space: nowrap;
+
+    color: white;
+    border: 2px solid #1abc9c;
+    border-radius: 30px;
+    background-color: #1abc9c;
+    font-family: 'Roboto';
+    cursor: pointer;
+}
+.contact-section button:hover {
+    color: #1abc9c;
+    border-color: #1abc9c;
+    background-color: white;
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+.footer h4 {
+    word-spacing: 5px;
+}
+@media (max-width: 991px) {
+    .navbar-nav {
+        padding-top: 1rem;
+    }
+    .title {
+        font-size: 3rem;
+    }
+    .cover-section .content h3 {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 326px) {
+    .title {
+        font-size: 2.5rem;
+    }
+}
