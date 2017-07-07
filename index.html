@@ -12,18 +12,106 @@
     <!-- ZMDI -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
 
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700" rel="stylesheet">
+
     <!-- Custom Styles -->
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    
+    <nav class="navbar navbar-toggleable-md navbar-light py-1 px-2 fixed-top">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">VentiVentures</a>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mr-1">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item mr-1">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item mr-1">
+                    <a class="nav-link" href="#">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Demo</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="main-container">
+        <div class="cover">
+            <div class="container px-0">
+                <div class="row w-100">
+                    <div class="col-md-6 px-3 px-md-0">
+                        <h1 class="mb-md-3 mb-1 animated fadeInDown">The <span class="underlined">future</span> of <span class="underlined">customer</span> sevice is here.</h1>
+                        <h4 class="mb-md-3 mb-2 animated fadeInLeft">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</h4>
+                        <form class="form-inline animated fadeInUp">
+                            <input type="text" class="form-control col-7 py-1" id="inlineFormInput" placeholder="Jane Doe">
+                            <button type="submit" class="btn btn-primary col-4 offset-1 p-1">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <span class="scroll-container"><a id="scroll"><i id="scroll-icon" class="zmdi zmdi-chevron-down animated infinite bounce zmdi-hc-fw"></i></a></span>
+        </div>
+        <div class="section-1 feature-section text-right">
+            <div class="container-fluid px-md-5 py-10 px-1">
+                <div class="row" data-aos="fade-up">
+                    <div class="col-md-5 offset-md-1 pr-2">
+                        <h2 class="mb-2 underlined d-inline-block">Lorem Ipsum</h2>
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="http://placehold.it/1000x700" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-2 feature-section text-left">
+            <div class="container-fluid px-md-5 py-10 px-1">
+                <div class="row" data-aos="fade-up">
+                    <div class="col-md-5 offset-md-1">
+                        <img src="http://placehold.it/1000x700" class="img-fluid">
+                    </div>
+                    <div class="col-md-5 pl-2">
+                        <h2 class="mb-2 underlined d-inline-block">Lorem Ipsum</h2>
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-3 feature-section text-center">
+            <div class="container-fluid px-md-5 py-10 px-1">
+                <div class="row" data-aos="fade-up">
+                    <div class="col-md-4"><img src="img/1.png" class="img-fluid"></div>
+                    <div class="col-md-4 pt-md-5">
+                        <h2 class="mb-2 underlined d-inline-block">Integrate with anything you want</h2>
+                        <h4>Use our one-click integrations with your favorite services or integrate on your own with whatever you want.</h4>
+                    </div>
+                    <div class="col-md-4"><img src="img/2.png" class="img-fluid"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://code.jquery.com/jquery-3.1.1.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-
+    <script src="bower_components/aos/dist/aos.js"></script>
+    <script>AOS.init();</script>
     <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
