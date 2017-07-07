@@ -81,7 +81,7 @@ nav {
 .feature-section img {
     height: auto;
 }
-.feature-section h2 {
+h2 {
     line-height: 3.5rem;
     width: auto;
 }
@@ -89,4 +89,12 @@ nav {
     font-weight: 400;
     color: #757575;
     line-height: 2rem;
+}
+.team .row h2 {
+    line-height: 3rem;
+}
+.team h5 {
+    font-weight: 400;
+    font-style: italic;
+    color: #757575;
 }
