@@ -14,4 +14,26 @@
 
     });
 
+    // Scroll to section given in the function's parameter
+	var display = function(section){
+		var barHeight = document.getElementById('head-bar').offsetHeight;
+		$('html, body').animate({scrollTop: section.offset().top - barHeight}, 1000);
+	};
+
+    $('#scroll').click(function(){
+        display($('.section-1'));
+    });
+    $('#home').click(function(){
+        display($('.cover'));
+    });
+    $('#feature').click(function(){
+        display($('.section-1'));
+    });
+    $('#team').click(function(){
+        display($('.team'));
+    });
+    $('#demo').click(function(){
+        display($('.demo'));
+    });
+
 })( window );

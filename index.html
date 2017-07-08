@@ -27,7 +27,7 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-toggleable-md navbar-light py-1 px-2 fixed-top">
+    <nav class="navbar navbar-toggleable-md navbar-light py-1 px-2 fixed-top" id="head-bar">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -35,16 +35,16 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item mr-1">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="#" id="home">Home</a>
                 </li>
                 <li class="nav-item mr-1">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#" id="feature">Features</a>
                 </li>
                 <li class="nav-item mr-1">
-                    <a class="nav-link" href="#">Team</a>
+                    <a class="nav-link" href="#" id="team">Team</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Demo</a>
+                    <a class="nav-link" href="#" id="demo">Demo</a>
                 </li>
             </ul>
         </div>
@@ -187,6 +187,18 @@
                         <h2>The<br>Chatbot</h2>
                         <h5>Beep, boop...</h5>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="demo">
+            <div class="container py-6 text-center">
+                <h2 class="underlined mb-2 d-inline-block mb-3">Request a demo?</h2>
+                <h4 class="mb-3">Enter your email right down here to request a demo.</h4>
+                <div class="row">
+                    <form class="form-inline animated fadeInUp pb-1 offset-md-3 col-md-6">
+                        <input type="email" name="email" class="form-control col-7 py-1" id="inlineFormInput" placeholder="Your email here">
+                        <button type="submit" class="btn btn-primary col-4 offset-1 p-1">Submit</button>
+                    </form>
                 </div>
             </div>
         </div>
